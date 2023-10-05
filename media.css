@@ -27,11 +27,16 @@
         height: fit-content;
     }
 
-    img, .card{
+    .card{
         display: flex;
         justify-content: center;
         width: 480px;
     
+    }
+
+    img{
+        width: 480px;
+        height: 480px;
     }
   
     
