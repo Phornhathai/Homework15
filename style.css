@@ -2,9 +2,16 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: 10px;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
+.container-nav{
+    display: flex;
+    margin-left: 170px;
+}
 .container-product{
     display: flex;
     flex-direction: row;

@@ -1,0 +1,31 @@
+@media screen and (max-width : 768px) {
+    .navbar-nav{
+        display: none;
+    }
+
+    .container-nav{
+       display: flex;
+       margin-left: 10px;
+    }
+
+    .navbar-toggler{
+       margin-left: 350px;
+    }
+
+
+    .container-product ,.container-rate,.container-reviews{
+       display: flex;
+       flex-direction: column;
+    }
+
+    .progress{
+        height: fit-content;
+    }
+
+    .card{
+        height: fit-content;
+        width: 500px;
+    }
+  
+    
+}
