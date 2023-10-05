@@ -6,6 +6,7 @@
         display: none;
     }
 
+    
     .container-nav{
        display: flex;
        margin-left: 10px;
@@ -26,7 +27,7 @@
         height: fit-content;
     }
 
-    .card{
+    img, .card{
         display: flex;
         justify-content: center;
         width: 480px;
