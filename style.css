@@ -1,0 +1,80 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.container-product{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex: 1;
+}
+
+h3,h4,p , input{
+    padding: 0 10px;
+}
+
+.stock{
+    padding-top: 0px;
+}
+.card{
+    margin: 10px;
+}
+
+.card-header{
+    font-weight: bolder;
+}
+
+img{
+    width: 500px;
+    height: 500px;
+}
+.image-product{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+img{
+    border-radius: 5px;
+}
+.form-control, .progress{
+    margin: 0 10px;
+    padding-top: 0;
+    width: 97%;
+}
+
+.btn{
+    margin: 10px 10px;
+}
+
+.container-rate {
+    display: flex;
+    justify-content: center;    
+}
+
+.rate ,.reviews-detail{
+    width: 68%;
+}
+
+.rate-point{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    padding: 10px;
+}
+
+.form-check-input{
+    height: 16px;
+    padding: 4px;
+}
+
+.container-reviews{
+    display: flex;
+    justify-content: center;
+}
+
+
