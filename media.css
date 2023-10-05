@@ -1,43 +1,46 @@
 @media screen and (max-width : 768px) {
-    body{
+    body {
         margin: 0 5px;
     }
-    .navbar-nav{
+
+    .navbar-nav {
         display: none;
     }
 
-    
-    .container-nav{
-       display: flex;
-       margin-left: 10px;
+
+    .container-nav {
+        display: flex;
+        margin-left: 10px;
     }
 
-    .navbar-toggler{
-       margin-left: 350px;
-       margin-right: 10px;
+    .navbar-toggler {
+        margin-left: 350px;
+        margin-right: 10px;
     }
 
 
-    .container-product ,.container-rate,.container-reviews{
-       display: flex;
-       flex-direction: column;
+    .container-product,
+    .container-rate,
+    .container-reviews {
+        display: flex;
+        flex-direction: column;
     }
 
-    .progress{
+    .progress {
         height: fit-content;
     }
 
-    .card{
+    .card {
         display: flex;
         justify-content: center;
         width: 480px;
-    
+
     }
 
-    img{
+    img {
         width: 480px;
         height: 480px;
     }
-  
-    
+
+
 }
